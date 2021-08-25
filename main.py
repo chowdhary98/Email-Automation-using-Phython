@@ -21,6 +21,9 @@ def send_mail():
 
     # terminating the session
     s.quit()
+    
+    
+    
 
 
 
@@ -41,6 +44,11 @@ def send_mail_to_users_containing_same_message():
         message = "Message_you_need_to_send"
         s.sendmail("sender_email_id", email, message)
         s.quit()
+        
+     
+    
+    
+        
 
 # Python code to illustrate Sending mail
     # to multiple users
